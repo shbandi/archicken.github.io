@@ -1,0 +1,247 @@
+.mainbackground {
+	/*    background-color: #bbb7b4;*/
+	/*    background: linear-gradient(to right, rgb(103, 178, 111), rgb(76, 162, 205));*/
+	/*    color: #6772e5;*/
+	background-color: #fff;
+}
+
+.commonbodytext {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 28px;
+	color: #525f7f;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+section {
+	padding: 12px;
+}
+
+p {
+	padding: 10px;
+}
+
+.logoalign {
+	float: right;
+}
+
+.navbar {
+	top: -50px;
+	position: fixed;
+	width: 100%;
+	transition: top 0.3s;
+}
+
+ul.topnav li {
+	float: left;
+	padding-left:
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+	color: #343a40;
+}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+.topsection {
+	background-color: #000000;
+	/*    background: linear-gradient(to right, rgb(156, 236, 251), rgb(101, 199, 247), rgb(0, 82, 212));*/
+	/*    background: linear-gradient(to right, rgb(171, 186, 171), rgb(255, 255, 255));*/
+	background-color: #ecf0dc;
+	background-image: url(white-background.jpg);
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #080808;
+	text-align: center;
+	height: 570px;
+}
+
+.herotext {
+	color: #2e3a65;
+	/*    text-align: center;*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 250px;
+	/*
+    vertical-align: middle;
+    line-height: 400px;
+*/
+}
+
+.brandname {
+	font-family: serif;
+	font-size: 80px;
+	margin: 0px;
+}
+
+.title {
+	color: #6772e5;
+}
+
+.locationsection {
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	background-color: #f6f9fc;
+	/*    background: linear-gradient(to right, rgb(76, 161, 175), rgb(196, 224, 229));*/
+}
+
+.locationsection li {
+	display: block;
+}
+
+.aboutsection {
+	text-align: center;
+	margin: 20px;
+}
+
+.itemsection {
+	text-align: center;
+	margin: 20px;
+	background-color: #f6f9fc;
+}
+
+.itemsection li {
+	float: left;
+	display: block;
+	padding: 14px 16px;
+	border-left: 1px solid #eee;
+}
+
+.itempadding .commonbodytext {
+	font-weight: 600;
+	font-style: italic;
+}
+
+.galleysection {
+	text-align: center;
+}
+
+.contact {
+	text-align: center;
+	background-color: #f6f9fc;
+	/*
+    background-image: url(img/A.R.%20Chicken-logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 200px;
+*/
+}
+
+.column1 {
+	float: left;
+	width: 32%;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.column2 {
+	float: left;
+	width: 32%;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.column3 {
+	float: left;
+	width: 33%;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+/* mobile screen*/
+@media (min-width: 481px) and (max-width: 767px) {
+	/*
+#intro .herotext{
+        position: absolute;
+  left: 30%;
+  top: 25%;
+  }
+*/
+	/*
+    ul.topnav {
+        background-color: #ffffff;
+    }
+    ul.topnav li { 
+        float: none;
+    }
+    .logoalign {
+    float: none;
+}
+*/
+/*
+	.column1 {
+		padding-right: 100px;
+		padding-left: 90px;
+	}
+	.column2 {
+		padding-right: 100px;
+		padding-left: 90px;
+	}
+	.column3 {
+		padding-right: 100px;
+		padding-left: 90px;
+	}
+*/
+	.locationsection .commonbodytext {
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 46px;
+	}
+	.herotext {
+		font-size: 20px;
+		color: #2e3a65;
+		/* text-align: center; */
+		position: absolute;
+		left: 50%;
+		top: 24% !important;
+		transform: translate(-50%, -50%);
+		width: 500px;
+		height: 250px;
+	}
+	.brandname {
+		font-family: serif;
+		font-size: 65px;
+		margin: 0px;
+	}
+}
+@media only screen and (max-width: 600px) {
+    
+  	.brandname {
+        font-size: 45px;
+	}
+    .column1 {
+        width: auto;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.column2 {
+        width: auto;
+		padding-right: 10px;
+		padding-left: 50px;
+	}
+	.column3 {
+        width: auto;
+		padding-right: 30px;
+		padding-left: 78px;
+	}
+}
